@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script>
+
+        $(function () {
+            sizing();
+            Draw();
+            $(window).resize(function () {
+            sizing();
+            Draw();
+            });
+        });
+
+        function sizing() {
+            $('#cnvs').attr({ height: $('#wrapper').height() });
+            $('#cnvs').attr({ width: $('#wrapper').width() });
+        };
+
+        $(function () {
+            sizing();
+            Draw();
+            $(window).resize(function () {
+            sizing();
+            Draw();
+            });
+        });
+
+        function sizing() {
+            $('#cnvs').attr({ height: $('#wrapper').height() });
+            $('#cnvs').attr({ width: $('#wrapper').width() });
+        };
+
+    </script>
+
+
+    <title>ImageEditor ver.0.01</title>
+</head>
+    <body>
+        <div id="wrapper"><canvas id="cnvs" ></canvas></div>
+        <div id="container"> <script>Draw();</script></div>
+    </body>
+</html>

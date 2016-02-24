@@ -1,2 +1,121 @@
 ﻿body {
+    margin: 0;
+}
+
+
+#horizontal_menu ul{
+margin: 0; 
+padding: 0; 
+list-style: none;
+}
+#horizontal_menu li{ 
+display: inline; 
+padding: 0; 
+margin: 0; 
+float: left;
+}
+#horizontal_menu li a{
+display: block;
+width: 100px;
+padding: 3px;
+margin: 10px 0px 10px 0px;
+text-decoration: none;
+border:outset 3px #C2CBBD;
+background-color: #C2CBBD;
+text-align: center;
+color: #000000;
+font-size: 14px;
+}
+#horizontal_menu li a:hover{
+border: inset 3px #95A38D;
+background-color: #95A38D;
+}
+
+
+#vertical_menu ul{ 
+margin: 0; 
+padding :0; 
+list-style-type: square; 
+}
+#vertical_menu li{ 
+padding :0; 
+margin:0; 
+}
+#vertical_menu li a{
+display: block;
+background: url(最初の画像のアドレス) no-repeat left center;
+padding: 2px 0px 3px 18px;
+color:#555;
+width: 150px;
+margin: 1px 0px;
+text-decoration:none;
+border-bottom: 1px dotted #666666;
+font-size: 14px;
+}
+#vertical_menu li a:hover{
+background: url(入れ替わる画像のアドレス) no-repeat left center;
+}
+
+
+#title h1 {
+	padding: 1em;
+	border: 3px solid #ccc;
+	border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+    text-align: center;
+}
+
+
+#heading_1 h1 {
+	position: relative;
+	padding: .5em .75em;
+	background-color: #e8e8e8;
+}
+#heading_1 h1::after {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: -webkit-calc(100% - 20px);
+	width: calc(100% - 20px);
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: #f0f0f0;
+}
+
+#heading_2 h1 {
+	padding: .5em .75em;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+	background: #f4f4f4;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	box-shadow: 0 7px 10px -5px rgba(0, 0, 0, .1) inset;
+}
+
+
+#cv { 
+background-color: #FFF; 
+border: 1px solid black; 
+} 
+
+
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+
+}
+body #wrapper{
+    width: 100%;
+    height:100%;
+    min-height:100%;
+    overflow: hidden;
+    position: fixed;
+}
+#container {
+    position: absolute;
+    top:0;
+    right:20px;
+    left:20px;
 }
