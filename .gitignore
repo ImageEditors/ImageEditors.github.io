@@ -196,7 +196,7 @@ ModelManifest.xml
 
 
 # Y.Yamada Added Test
-*.jpg
+*/*.png
 *.csproj
 *.sln
 *.config
