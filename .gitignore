@@ -5,6 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
+*.sln
+Web.config
 
 # Build results
 [Dd]ebug/
@@ -18,6 +20,7 @@ bld/
 
 # Roslyn cache directories
 *.ide/
+Properties/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -56,6 +59,9 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+
+# ƒeƒXƒg‚ÅYamada.png‚ð–³Ž‹‚³‚¹‚é
+Yamada.png
 
 # Chutzpah Test files
 _Chutzpah*

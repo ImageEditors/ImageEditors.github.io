@@ -76,6 +76,7 @@
     <Content Include="menu.html" />
     <Content Include="top.html" />
     <Content Include="Web.config" />
+    <Content Include="Yamada.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
