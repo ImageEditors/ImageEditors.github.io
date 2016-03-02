@@ -1,0 +1,24 @@
+﻿html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#left_contents{
+    background-color:blue;
+}
+
+#main_contents{
+    background-color:yellow;
+}
+
+#right_contents{
+    background-color:red;
+}
+
+#left_contents,
+#main_contents,
+#right_contents{
+    height:200px;
+}
+

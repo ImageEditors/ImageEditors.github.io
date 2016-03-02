@@ -66,12 +66,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.html" />
+    <Content Include="css\index.css" />
     <Content Include="css\main.css" />
     <Content Include="index.html" />
+    <Content Include="js\index.js" />
     <Content Include="lib\bootstrap\bootstrap.css" />
     <Content Include="lib\bootstrap\bootstrap.js" />
     <Content Include="lib\bootstrap\bootstrap.min.css" />
     <Content Include="lib\bootstrap\bootstrap.min.js" />
+    <Content Include="lib\jquery\jquery-2.2.1.js" />
+    <Content Include="lib\jquery\jquery-2.2.1.min.js" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.bare.css" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.dark.css" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.dark.min.css" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.js" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.light.css" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.light.min.css" />
+    <Content Include="lib\jquery\plugin\jquery.sidr.min.js" />
     <Content Include="main.html" />
     <Content Include="js\main.js" />
     <Content Include="menu.html" />
