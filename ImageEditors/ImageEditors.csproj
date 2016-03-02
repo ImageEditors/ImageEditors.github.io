@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="config.html" />
     <Content Include="css\main.css" />
+    <Content Include="index.html" />
     <Content Include="lib\bootstrap\bootstrap.css" />
     <Content Include="lib\bootstrap\bootstrap.js" />
     <Content Include="lib\bootstrap\bootstrap.min.css" />
@@ -76,7 +77,7 @@
     <Content Include="menu.html" />
     <Content Include="top.html" />
     <Content Include="Web.config" />
-    <Content Include="yama.jpg" />
+    <Content Include="Yamada.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
